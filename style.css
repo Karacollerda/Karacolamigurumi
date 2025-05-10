@@ -1,0 +1,445 @@
+
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'lemon';
+    src: url(fontes/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url(fontes/Nexa-ExtraLight.ttf);
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    flex-direction: column;
+    background-color: #FFF9E8;
+    overflow: auto;
+}
+main{
+    flex: 1 1 0;
+}
+div.Nav{
+    width: 100%;
+    height: 31px;
+    display: inline-flex;
+    background-color: #915844;
+    justify-content: space-around;
+    align-items: center;
+
+}
+div.N_email a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nexa';
+}
+div.N_email a:hover{
+    color: white;
+    opacity: 0.8;
+    text-decoration: underline;
+    font-family: 'Nexa';
+}
+div.N_social{
+    display: flex;
+    justify-content: center;
+}
+div#W{
+    margin: 0 15px;
+}
+div#W:hover{
+    opacity: 0.8;
+}
+div#I:hover{
+    opacity: 0.8;
+}
+div.Menu{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #FFF0C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.158);
+    
+    
+}
+div.men{
+    width: 870px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.men a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'lemon';
+}
+div.men div p a:hover{
+    color: #915844;
+    font-weight: bold;
+}
+div.images{
+    margin: 40px auto;
+    width:714px;
+    height:398px;
+    overflow: hidden;
+    
+    
+}
+div.im{
+    width:398%;
+    height:398px;
+    display: flex;
+    
+}
+div.im input{
+    display: none;
+}
+div.imag{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+div.imag img{
+    width:714px;
+}
+div.manual-nav{
+    position: absolute;
+    width: 714px;
+    margin-top:-40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+.manual-btn:hover{
+    background-color: white;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+.navigation div{
+    border: 2px solid rgba(68, 56, 43, 0.459);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.navigation{
+    position: absolute;
+    width: 714px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+.navigation div:not(:last-child){
+    margin-right: 10px;
+}
+#radio1:checked ~ .navigation .nav-btn1{
+    background-color: white;
+}
+#radio2:checked ~ .navigation .nav-btn2{
+    background-color: white;
+}
+#radio3:checked ~ .navigation .nav-btn3{
+    background-color: white;
+}
+
+
+div.mensage{
+    width: 1100px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+div.M{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.conteudo{
+    flex: 1 0 auto;
+}
+.rodape{
+    flex-shrink: 0;
+}
+div.fim{
+    height: 194px;
+    background-color: #4E2C20;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+div p.final{
+    font-size: 25px;
+    color: white;
+    font-family: 'lemon';
+}
+div.red a{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 15px;
+}
+.redessocial{
+    color: white;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.redessocial:hover{
+    opacity: 0.8;
+}
+#tiktok{
+    text-shadow: 0.1em 0.1em #ff2992;
+    background: #131313;
+    
+}
+#insta{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#what{
+    background: linear-gradient(#25d366, #1d8a45);
+}
+#youtube{
+    background-color: #e1002d;
+}
+
+div.fim a.E{
+    color: rgb(29, 17, 17);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div.fim a.E:hover{
+    color: #a16853;
+    text-decoration: underline;
+}
+div.fim p.E{
+    color: rgb(196, 141, 131);
+    font-size: 18px;
+}
+div.direitos{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #0c0705;
+    color: #5f3828;
+
+}
+.redess{
+    display: none;
+}
+div.navg{
+    display: none;
+}
+div.information{
+    display: none;
+}
+
+@media screen and (max-width:450px){
+    /*CLASSES GERAIS*/
+    div.men{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    div.logo{
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        
+    }
+    div.navg{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+
+    }
+    
+    
+    /*CABEÇALHO*/
+    div.Nav , div.Menu div.men div p{
+        display: none;
+    }
+    div.imag{
+        display: none;
+    }
+    div.Menu{
+        position: sticky;
+        top: 0;
+    }
+    div.images{
+        margin: 30px auto;
+        width:330px;
+        height:300px;
+        overflow: hidden;
+    }
+    div.im{
+        width:300%;
+        height:300px;
+        display: flex;
+        
+    }
+    div.cel{
+        width: 50%;
+        position: relative;
+        transition: 2s;
+    }
+    div.imag img{
+        width:330px;
+    }
+    div.manual-nav{
+        position: absolute;
+        width: 330px;
+        margin-top:-40px;
+        
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio2:checked ~ .first{
+        margin-left: -50%;
+    }
+    #radio3:checked ~ .first{
+        margin-left: -100%;
+    }
+    .navigation{
+        position: absolute;
+        width: 330px;
+        margin-top: 260px;
+    }
+    
+    div.information{
+        display: flex;
+        justify-content: center;
+        
+    }
+    div.info{
+        display: flex;
+        justify-content: center;
+        width: 144px;
+        height: 51px;
+        align-items: center;
+        background-color: #FFF0C4;
+        font-family: 'lemon';
+        margin-bottom: 20px;
+        box-shadow: 0px 2px 0px 1px rgba(0, 0, 0, 0.2);
+    }
+    div.info:not(:last-child){
+        margin-right: 20px;
+    }
+    div.info a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    /*MENSAGENS*/
+    div.M{
+        width: 100%;
+    }
+
+    div.mensage{
+        width: 20%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    div.amor img{
+        width: 270px;
+        height: 77px;
+    }
+    div.amor:not(:last-child){
+        margin-bottom: 5px;
+
+    }
+    div.fim a.E{
+        text-decoration: underline;
+    }
+    div.fim{
+        height: 100%;
+        flex-direction: column;
+        margin-top: 80px;
+        justify-content: flex-start;
+        padding-left: 60px;
+        
+    }
+    
+}
+@media screen and (min-width:799px) and (max-width: 900px){
+    .tudo{
+        height: 100vh;
+    }
+    .rodape{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    div.M{
+        width: 100%;
+    }
+
+    div.mensage{
+        align-items: center;
+        
+    }
+    div.amor img{
+        width: 240px;
+        height: 70px;
+    }
+    div.amor:not(:last-child){
+        margin-bottom: 5px;
+
+    }
+    div.fim a.E{
+        text-decoration: underline;
+    }
+    div.men div p{
+        font-size: 15px;
+    }
+    div.fim p.final{
+        font-size: 23px;
+    }
+    div.fim{
+        height: 100%;
+        margin-top: 70px;
+        
+    }
+    
+}

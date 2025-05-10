@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: 'lemon';
+    src: url(fontes/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: 'Nexa';
+    src: url(fontes/Nexa-ExtraLight.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    background-color: #FFF9E8;
+    overflow: auto;
+}
+
+div.Nav{
+    width: 100%;
+    height: 31px;
+    display: inline-flex;
+    background-color: #915844;
+    justify-content: space-around;
+    align-items: center;
+
+}
+div.N_email a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Nexa';
+}
+div.N_email a:hover{
+    color: white;
+    text-decoration: underline;
+    font-family: 'Nexa';
+}
+div.N_social{
+    display: flex;
+    justify-content: center;
+}
+div#W{
+    margin: 0 15px;
+}
+div.Menu{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #FFF0C4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 8px 5px rgba(0, 0, 0, 0.158);
+    
+    
+}
+div.men{
+    width: 870px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.men a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'lemon';
+}
+div.men div p a:hover{
+    color: #915844;
+    font-weight: bold;
+}
+div.corpo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+}
+div.menu-v{
+    width: 200px;
+    height: 100%;
+    
+    display: inline;
+    background-color: #915844;
+}
+div.text{
+    width: 200px;
+    margin-left: 15px;
+    justify-content: center;
+    
+}
+div.text h4{
+    font-family: 'lemon';
+    color: #1d0f0a;
+}
+
+div.text a{
+    display: flex;
+    flex-direction: column;
+    color: #1d0f0a;
+    text-decoration: none
+
+    
+}
+div.text a:hover{
+    color: rgb(126, 77, 63);
+    text-decoration: underline;
+    
+}
+div.text a:not(:last-child){
+    margin-bottom: 5px;
+}
+div.produtos{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+div.card{
+    width: 240px;
+    height: 335px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 2px 5px 2px #0c07053f;
+    margin: 12px;
+    
+}
+div.img-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+div.img-card img{
+    width: 190px;
+    height: 190px;
+}
+div.descricao-card{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+div.descricao-card h3{
+    font-family: 'Nexa';
+    font-size: 18px;
+}
+div.descricao-card p{
+    margin-top: -10px;
+    margin-left: 8px;
+    font-size: 13px;
+    color: #0000006b;
+}
+div.descricao-card a{
+    text-decoration: none;
+    color: red;
+}
+div.descricao-card a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+div.fim{
+    width: 100%;
+    height: 194px;
+    background-color: #4E2C20;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+div p.final{
+    font-size: 25px;
+    color: white;
+}
+
+div.fim a.E{
+    color: rgb(29, 17, 17);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div.fim a.E:hover{
+    color: #a16853;
+    text-decoration: underline;
+}
+div.fim p.E{
+    color: rgb(196, 141, 131);
+    font-size: 18px;
+}
+div.direitos{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #0c0705;
+    color: #5f3828;
+
+}
