@@ -11,7 +11,9 @@
     font-family: 'Nexa';
     src: url(fontes/Nexa-ExtraLight.ttf);
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     width: 100%;
     min-height: 100vh;
@@ -23,7 +25,21 @@ body{
     flex-direction: column;
     background-color: #FFF9E8;
     overflow: auto;
+    
 }
+
+#voltar{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255 240 196);
+    border-radius: 100%;
+    border: 0.5px solid black;
+    position: fixed;
+    z-index: 9;
+    bottom: 15px;
+    right: 15px;
+}
+
 main{
     flex: 1 1 0;
 }
@@ -198,6 +214,7 @@ div.M{
 }
 .rodape{
     flex-shrink: 0;
+    width: 100%;
 }
 div.fim{
     height: 194px;
@@ -444,4 +461,34 @@ div.information{
         
     }
     
+}
+
+
+
+
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 50%;
+    justify-content: space-around;
+    height: 50px;
+}
+.catergoria .cat{
+    width: 150px;
+    height: 40px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cat a{
+    text-decoration: none;
+    color: black;
+    font-family: 'lemon';
+    font-size: 20px;
+    
+}.cat a:hover{
+    color: #915844;
+    font-weight: bold;
 }
